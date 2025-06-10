@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="test.css">
+    <style>
+        #email-input {
+            width: 100%;
+            background: none;
+            border: none;
+            color: white;
+            outline: none;
+        }
+        #email-input::placeholder{
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
     <div id="hero">
         <div id="card">
             <h1 style="text-align: center; color: white;">Login</h1>
-            <input type="text" name="" id="" style="width: 80%;" placeholder="Enter your Email">
-            <p>Email</p>
+            <div style="width: 80%; margin-left: 10%; border-bottom: 1px solid white; margin-top: 50px;">
+                <input type="text" name="" id="email-input" placeholder="Enter your Email">
+            </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
